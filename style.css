@@ -243,6 +243,7 @@ html {
   color: rgb(160, 29, 29);
   font-size: 5rem;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .menu_list {
@@ -419,7 +420,7 @@ tr td:nth-child(1) {
     height: 400px;
   }
 }
-/* ########## max-width: 800px ############################# */
+/* ########## max-width: 850px ############################# */
 @media screen and (max-width: 850px) {
   .overlay-menu {
     display: flex;
@@ -429,7 +430,6 @@ tr td:nth-child(1) {
     padding: 0 32px;
     justify-content: space-between;
   }
-
 
   .nav_items_right {
     align-items: center;
@@ -515,7 +515,7 @@ tr td:nth-child(1) {
   }
 
   .our_menu img {
-    display: none;
+    margin-bottom: 20px;
   }
 
   .our_menu table {
@@ -523,6 +523,9 @@ tr td:nth-child(1) {
     font-size: 32px;
     color: rgb(105, 105, 105);
     border-spacing: 12px;
+  }
+  .item_headline {
+    text-align: center;
   }
 
   .item_one_description,
@@ -537,12 +540,14 @@ tr td:nth-child(1) {
   .menu_one_tonkasu,
   .menu_two_spicy,
   .menu_three_shio {
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: 170px;
-    background-position: center bottom;
+    background-position: center bottom; */
+    flex-direction: column;
+    align-items: center;
   }
 
-  .menu_one_tonkasu {
+  /* .menu_one_tonkasu {
     background-image: url("img/r1.png");
     background-color: rgba(0, 0, 0, 0.073);
   }
@@ -555,7 +560,7 @@ tr td:nth-child(1) {
   .menu_three_shio {
     background-image: url("img/r3.png");
     background-color: rgba(0, 0, 0, 0.073);
-  }
+  } */
 
   .headline_find_us_at {
     font-size: 4rem;
