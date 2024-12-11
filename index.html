@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>✿ Sakura Ramen</title> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css"> 
+        <!-- Font Raleway -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Font economica -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="body-div">
+            <div class="header1">
+                <!-- ##########  nav    -->
+                <div class="nav flex">
+                    <img class="nav_flower_pic" src="img/sakura_logo.png" alt="pinc_flower">
+                    <div class="nav_items_right font-family-raleway bold no-display flex">
+                        <a class="hover_red none" href="#locations" id="location">LOCATIONS</a>
+                        <a class="hover_red none" href="#about" id="aboute">ABOUT</a>
+                        <a class="hover_red none" href="#menu" id="menue">MENU</a>
+                        <a class="red_phone_box flex" href="tel:017654564534" title="Telefonnummer">
+                            <img src="img/phone.png" alt="telephone">
+                                <span>0176 54564534</span>
+                        </a> 
+                    </div>
+                </div>
+                <div class="headline_area flex">
+                    <h1 class="font-family-raleway bold">SAKURA RAMEN</h1>
+                    <p class="font-family-raleway" id="headline-slogan">THE BEST RAMEN IN TOWN</p>
+                </div>
+            </div>
+            <!-- HOW TO ORDER -->
+            <div class="how_to_order">
+                <h2 class="headline_how_to_order headline font-family-raleway bold flex" id="how-to-order">HOW TO ORDER</h2>
+                <div class="orders flex">
+                    <div class="order_item1_noodle flex">
+                        <img class="order_item1_pic" src="./img/noodle.png" alt="pasta_bowl">
+                        <div>  
+                            <p id="pick-noodle1">Pick</p>
+                            <p id="pick-noodle2">Your Noodle</p>
+                        </div>  
+                        <div class="orders-p-responsiv" id="pick-noodle-resp">Pick Your Noodle</div>
+                    </div>
+                    <div class="order_item2_broth  flex">
+                        <img class="order_item2_pic" src="./img/broth.png" alt="bowl">
+                        <p id="pick-broth1">Pick</p>
+                        <p id="pick-broth2">Your Broth</p>
+                        <div class="orders-p-responsiv" id="pick-broth-resp">Pick Your Broth</div>
+                    </div>
+                    <div class="order_item3_toppings  flex">
+                        <img class="order_item3_pic" src="./img/egg.png" alt="half_eggs">
+                        <p id="add-toppings">Add Your Toppings</p>
+                        <div class="orders-p-responsiv" id="add-toppings-resp">Add Your Toppings</div>
+                    </div>
+                </div>
+            </div>
+            <!-- OUR MENU -->
+            <div class="our_menu" id="menu">
+                <h2 class="headline_our_menu headline font-family-raleway bold flex" id="our-menu">OUR MENU</h2>
+                <div class="menu_list flex">
+                    <div class="menu_one_tonkasu flex">
+                        <img src="img/r1.png" alt="eggs_soup">
+                        <div class="item_descriptions item_one_description flex">
+                            <p class="item_headline font-family-economica bold">Tonkasu Ramen</p>
+                            <div class="table1 font-family-raleway bold">
+                                <table>
+                                    <tbody></tbody>
+                                        <tr>
+                                            <td class="name" id="chicken1">CHICKEN</td>
+                                            <td class="td_2">11.95€</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name" id="beef1">BEEF</td>
+                                            <td class="td_2">12.95€</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name" id="shrimp1">SHRIMP</td>
+                                            <td class="td_2">13.95€</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_two_spicy flex">
+                        <img src="img/r2.png" alt="egg_soup">
+                        <div class="item_descriptions item_two_description flex">
+                            <p class="item_headline font-family-economica bold">Spicy Miso Ramen</p>
+                            <div class="table2 font-family-raleway bold">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="name" id="chicken2">CHICKEN</td>
+                                            <td class="td_2">11.95€</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name" id="beef2">BEEF</td>
+                                            <td class="td_2">12.95€</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name" id="shrimp2">SHRIMP</td>
+                                            <td class="td_2">13.95€</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_three_shio flex">
+                        <img src="img/r3.png" alt="duck_soup">
+                        <div class="item_descriptions item_three_description flex">
+                            <p class="item_headline font-family-economica bold">Shio Ramen</p>
+                            <div class="table3 font-family-raleway bold">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="name" id="chicken3">CHICKEN</td>
+                                            <td class="td_2">11.95€</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name" id="beef3">BEEF</td>
+                                            <td class="td_2">12.95€</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name" id="shrimp3">SHRIMP</td>
+                                            <td class="td_2">13.95€</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIND US AT -->
+            <div class="find_us_at flex" id="locations">
+                <h2 class="headline_find_us_at headline font-family-raleway bold flex" id="find-us-at">FIND US AT</h2>
+                <div class="find_us_at_adress flex">
+                    <img class="adress_pic" src="./img/map_marker.png">
+                    <p class="font-family-raleway" id="adress">Adlermatte 2, 6033 Buchrain, CH</p>
+                </div>
+            </div>
+            <!-- MAPS -->
+            <iframe class="gmaps_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5432.479134862406!2d8.344351277119662!3d47.094374023207806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ffc3a5c89cc01%3A0xd4e96813b2c457f5!2sAdlermatte%202%2C%206033%20Buchrain!5e0!3m2!1sde!2sch!4v1733931675295!5m2!1sde!2sch" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- FOOTER -->
+            <div class="footer flex" id="about">
+                <div class="left_foot_div flex">
+                    <a href="#"><img class="left_foot_pic" src="img/sakura_ramen_logo_and_text.png" alt="Sakura Ramen Logo"></a>
+                </div>
+                <!-- attribution to freepik from flaticon.com -->
+                <div class="right_foot_div flex">
+                    <a href="https://de-de.facebook.com"><img class="fb_icon" src="img/facebook_logo.png" alt="facebook emblem"></a>
+                    <a href="https://www.instagram.com"><img class="ins_icon" src="img/instagrram_logo.png" alt="instagram emblem"></a>
+                    <a href="https://www.tripadvisor.de"><img class="tripad_icon" src="img/tripadvisor_logo.png" alt="tripadviser emblem"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
