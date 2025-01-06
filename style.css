@@ -30,7 +30,7 @@ html {
 
 .body-div {
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* ########### header 1 ######################### */
@@ -228,6 +228,7 @@ html {
   padding: 0;
   width: 100px;
   height: 100px;
+  margin-bottom: 16px;
 }
 
 /* ########## header3 OUR MENU */
@@ -411,7 +412,7 @@ tr td:nth-child(1) {
 
   .footer {
     padding: 32px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
   }
@@ -498,7 +499,7 @@ tr td:nth-child(1) {
   .order_item1_noodle,
   .order_item2_broth,
   .order_item3_toppings {
-    flex-direction: row;
+    flex-direction: column;
     width: 32rem;
   }
 
@@ -576,7 +577,7 @@ tr td:nth-child(1) {
 
   .footer {
     padding: 32px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -585,6 +586,12 @@ tr td:nth-child(1) {
   .right_foot_div {
     margin-top: 8px;
     margin-bottom: 8px;
+  }
+
+  .fb_icon,
+  .ins_icon,
+  .tripad_icon {
+    width: 40px;
   }
 }
 /* ########## max-width: 600px ############################# */
@@ -621,6 +628,7 @@ tr td:nth-child(1) {
   .order_item2_broth,
   .order_item3_toppings {
     width: 18rem;
+    flex-direction: column;
   }
 
   .order_item2_broth,
@@ -628,15 +636,11 @@ tr td:nth-child(1) {
     margin-top: 16px;
   }
 
-  .order_item1_pic {
-    width: 55px;
-    height: 55px;
-  }
-
+  .order_item1_pic,
   .order_item2_pic,
   .order_item3_pic {
-    width: 55px;
-    height: 52px;
+    width: 112px;
+    height: 112px;
   }
 
   .our_menu {
@@ -692,6 +696,9 @@ tr td:nth-child(1) {
 
   .footer {
     padding: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .left_foot_div,
@@ -710,21 +717,109 @@ tr td:nth-child(1) {
   .fb_icon,
   .ins_icon,
   .tripad_icon {
-    width: 42px;
+    width: 40px;
+    margin: 0 5px;
   }
+
+  .left_foot_div img.left_foot_pic {
+    /* Hide the original image */
+    display: none;
+  }
+
+  .left_foot_div::after {
+    content: "";
+    display: block;
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-image: url("img/sakura_logo.png");
+    background-size: contain; /* Ensure the image fits within the dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .right_foot_div {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    width: 200px;
+    /* text-align: center; */
+}
 }
 
+/* ########## max-width: 410px ############################# */
 @media screen and (max-width: 410px) {
   .nav_items_right {
     margin-top: 32px;
     width: 200px;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
   }
 
   .nav {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    padding: 0 12px;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .nav_flower_pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  .headline_area {
+    height: 40%;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+
+  .headline_area h1 {
+    font-size: 38px;
+    text-align: center; /* Center text within the h1 */
+  }
+
+  .headline_area p {
+    font-size: 1rem;
+    text-align: center; /* Center text within the p */
+  }
+
+  .left_foot_div img.left_foot_pic {
+    /* Hide the original image */
+    display: none;
+  }
+
+  .left_foot_div::after {
+    content: "";
+    display: block;
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-image: url("img/sakura_logo.png");
+    background-size: contain; /* Ensure the image fits within the dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .right_foot_div {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    width: 140px;
+    /* text-align: center; */
+}
+  
+.footer {
+  padding: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .fb_icon,
+  .ins_icon,
+  .tripad_icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
   }
 }
