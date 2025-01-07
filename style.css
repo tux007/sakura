@@ -98,7 +98,6 @@ html {
 
 .red_phone_box img {
   width: 11%;
-  /* margin-right: 5px; */
 }
 
 .translate img {
@@ -118,7 +117,6 @@ html {
 }
 
 .footer + .menu-img {
-  width: 2rem;
   cursor: pointer;
 }
 
@@ -186,7 +184,6 @@ html {
 .orders {
   justify-content: space-around;
   margin-top: 50px;
-  /* border: 1px solid black; */
 }
 
 .orders p {
@@ -217,11 +214,8 @@ html {
 .order_item3_pic {
   padding: 0;
   margin-bottom: 16px;
-  /* width: 51%; */
   width: 100px;
   height: 97px;
-  /* width:  7vw;
-        height: 9vw; */
 }
 
 .order_item1_pic {
@@ -290,7 +284,7 @@ html {
 }
 
 .our_menu table {
-  margin-top: 24px; /* Abstand Tabelle vs Überschrift */
+  margin-top: 24px; 
   font-size: 32px;
   color: rgb(105, 105, 105);
   border-spacing: 12px;
@@ -312,7 +306,6 @@ tr td:nth-child(1) {
 .headline_find_us_at {
   color: rgb(160, 29, 29);
   font-size: 5rem;
-  /* border: 1px solid black; */
   align-items: center;
   margin: 0;
 }
@@ -421,8 +414,8 @@ tr td:nth-child(1) {
     height: 400px;
   }
 }
-/* ########## max-width: 850px ############################# */
-@media screen and (max-width: 850px) {
+/* ########## max-width: 768px ############################# */
+@media screen and (max-width: 768px) {
   .overlay-menu {
     display: flex;
   }
@@ -541,27 +534,9 @@ tr td:nth-child(1) {
   .menu_one_tonkasu,
   .menu_two_spicy,
   .menu_three_shio {
-    /* background-repeat: no-repeat;
-    background-size: 170px;
-    background-position: center bottom; */
     flex-direction: column;
     align-items: center;
   }
-
-  /* .menu_one_tonkasu {
-    background-image: url("img/r1.png");
-    background-color: rgba(0, 0, 0, 0.073);
-  }
-
-  .menu_two_spicy {
-    background-image: url("img/r2.png");
-    background-color: rgba(0, 0, 0, 0.073);
-  }
-
-  .menu_three_shio {
-    background-image: url("img/r3.png");
-    background-color: rgba(0, 0, 0, 0.073);
-  } */
 
   .headline_find_us_at {
     font-size: 4rem;
@@ -609,7 +584,7 @@ tr td:nth-child(1) {
   }
 
   .how_to_order {
-    padding: 16px 16px 8px 16px;
+    padding: 72px 16px 72px 16px;
   }
 
   .headline_how_to_order {
@@ -629,11 +604,7 @@ tr td:nth-child(1) {
   .order_item3_toppings {
     width: 18rem;
     flex-direction: column;
-  }
-
-  .order_item2_broth,
-  .order_item3_toppings {
-    margin-top: 16px;
+    margin-top: 32px;
   }
 
   .order_item1_pic,
@@ -644,7 +615,7 @@ tr td:nth-child(1) {
   }
 
   .our_menu {
-    padding: 16px;
+    padding: 72px 16px 72px 16px;
   }
 
   .headline_our_menu {
@@ -652,7 +623,7 @@ tr td:nth-child(1) {
   }
 
   .our_menu table {
-    margin-top: 2px;
+    margin-top: 16px;
     font-size: 20px;
     border-spacing: 8px;
   }
@@ -661,7 +632,7 @@ tr td:nth-child(1) {
   .menu_two_spicy,
   .menu_three_shio {
     background-size: 100px;
-    margin-top: 16px;
+    margin-top: 40px;
   }
 
   .item_descriptions p {
@@ -670,7 +641,7 @@ tr td:nth-child(1) {
   }
 
   .find_us_at {
-    padding: 16px;
+    padding: 72px 16px 40px 16px;
   }
 
   .headline_find_us_at {
@@ -722,17 +693,16 @@ tr td:nth-child(1) {
   }
 
   .left_foot_div img.left_foot_pic {
-    /* Hide the original image */
     display: none;
   }
 
   .left_foot_div::after {
     content: "";
     display: block;
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
+    width: 40px;
+    height: 40px;
     background-image: url("img/sakura_logo.png");
-    background-size: contain; /* Ensure the image fits within the dimensions */
+    background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -743,11 +713,11 @@ tr td:nth-child(1) {
     justify-content: space-between;
     width: 200px;
     /* text-align: center; */
-}
+  }
 }
 
-/* ########## max-width: 410px ############################# */
-@media screen and (max-width: 410px) {
+/* ########## max-width: 375px ############################# */
+@media screen and (max-width: 375px) {
   .nav_items_right {
     margin-top: 32px;
     width: 200px;
@@ -770,32 +740,31 @@ tr td:nth-child(1) {
 
   .headline_area {
     height: 40%;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    justify-content: center; 
+    align-items: center; 
   }
 
   .headline_area h1 {
-    font-size: 38px;
-    text-align: center; /* Center text within the h1 */
+    font-size: 44px;
+    text-align: center; 
   }
 
   .headline_area p {
     font-size: 1rem;
-    text-align: center; /* Center text within the p */
+    text-align: center; 
   }
 
   .left_foot_div img.left_foot_pic {
-    /* Hide the original image */
     display: none;
   }
 
   .left_foot_div::after {
     content: "";
     display: block;
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
+    width: 40px; 
+    height: 40px; 
     background-image: url("img/sakura_logo.png");
-    background-size: contain; /* Ensure the image fits within the dimensions */
+    background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -805,15 +774,15 @@ tr td:nth-child(1) {
     margin-bottom: 4px;
     justify-content: space-between;
     width: 140px;
-    /* text-align: center; */
-}
-  
-.footer {
-  padding: 16px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+  }
+
+  .footer {
+    padding: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+  }
 
   .fb_icon,
   .ins_icon,
