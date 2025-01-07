@@ -58,7 +58,7 @@ html {
 .nav_items_right {
   align-items: center;
   justify-content: space-between;
-  width: 600px;
+  width: 500px;
 }
 
 .nav_items_right a,
@@ -393,10 +393,6 @@ tr td:nth-child(1) {
     font-size: 1.5rem;
   }
 
-  .our_menu img {
-    width: 250px;
-  }
-
   .our_menu table {
     margin-top: 8px;
     font-size: 24px;
@@ -542,10 +538,12 @@ tr td:nth-child(1) {
   .item_one_description,
   .item_three_description {
     margin-left: auto;
+    padding: 24px 24px;
   }
 
   .item_two_description {
     margin-right: auto;
+    padding: 24px 24px;
   }
 
   .menu_one_tonkasu,
@@ -789,6 +787,11 @@ tr td:nth-child(1) {
   .headline_area p {
     font-size: 1rem;
     text-align: center;
+  }
+
+  .our_menu img {
+    width: 280px;
+    height: 280px;
   }
 
   .left_foot_div img.left_foot_pic {
