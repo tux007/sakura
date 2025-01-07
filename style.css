@@ -171,7 +171,7 @@ html {
 
 /* ########## header2 HOW TO ORDER */
 .how_to_order {
-  padding: 32px 0 32px 0;
+  padding: 120px 160px 120px 160px;
 }
 
 .headline_how_to_order {
@@ -183,7 +183,7 @@ html {
 
 .orders {
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 64px;
 }
 
 .orders p {
@@ -214,20 +214,20 @@ html {
 .order_item3_pic {
   padding: 0;
   margin-bottom: 16px;
-  width: 100px;
-  height: 97px;
+  width: 112px;
+  height: 112px;
 }
 
 .order_item1_pic {
   padding: 0;
-  width: 100px;
-  height: 100px;
+  width: 112px;
+  height: 112px;
   margin-bottom: 16px;
 }
 
 /* ########## header3 OUR MENU */
 .our_menu {
-  padding: 32px 80px;
+  padding: 120px 160px 120px 160px;
   background-image: url("img/section_our_menu_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,7 +236,7 @@ html {
 .headline_our_menu {
   margin: 0;
   color: rgb(160, 29, 29);
-  font-size: 5rem;
+  font-size: 80px;
   justify-content: center;
   margin-top: 20px;
 }
@@ -258,7 +258,8 @@ html {
 }
 
 .our_menu img {
-  width: 372px;
+  width: 352px;
+  height: 352px;
 }
 
 .item_descriptions {
@@ -284,14 +285,14 @@ html {
 }
 
 .our_menu table {
-  margin-top: 24px;
+  margin-top: 16px;
   font-size: 32px;
   color: rgb(105, 105, 105);
-  border-spacing: 12px;
+  border-spacing: 8px;
 }
 
 tr td:nth-child(1) {
-  padding-right: 7em;
+  padding-right: 5em;
 }
 
 /* ########## header4 FIND US AT */
@@ -299,13 +300,13 @@ tr td:nth-child(1) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3px;
-  padding: 32px 0;
+  gap: 8px;
+  padding: 120px 0 64px 0;
 }
 
 .headline_find_us_at {
   color: rgb(160, 29, 29);
-  font-size: 5rem;
+  font-size: 80px;
   align-items: center;
   margin: 0;
 }
@@ -313,7 +314,7 @@ tr td:nth-child(1) {
 .find_us_at_adress {
   justify-content: center;
   align-items: center;
-  width: 41rem;
+  /* width: 41rem; */
 }
 
 .adress_pic {
@@ -322,7 +323,7 @@ tr td:nth-child(1) {
 }
 
 .find_us_at_adress p {
-  font-size: 2rem;
+  font-size: 24px;
   margin: 0;
 }
 
@@ -346,6 +347,7 @@ tr td:nth-child(1) {
 
 .left_foot_div img {
   width: 300px;
+  height: 44px;
 }
 
 .middle_foot_div {
@@ -372,7 +374,8 @@ tr td:nth-child(1) {
 .fb_icon,
 .ins_icon,
 .tripad_icon {
-  width: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 /* ############# RESPONSIVE PART #################### */
@@ -562,7 +565,7 @@ tr td:nth-child(1) {
   }
 
   .find_us_at_adress {
-    width: 36rem;
+    /* width: 36rem; */
   }
 
   .find_us_at_adress p {
@@ -674,7 +677,7 @@ tr td:nth-child(1) {
   }
 
   .find_us_at_adress {
-    width: 20rem;
+    /* width: 20rem; */
   }
 
   .adress_pic {
