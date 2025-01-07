@@ -794,6 +794,17 @@ tr td:nth-child(1) {
     height: 280px;
   }
 
+  .item_one_description,
+  .item_three_description {
+    margin-left: auto;
+    padding: 12px 12px;
+  }
+
+  .item_two_description {
+    margin-right: auto;
+    padding: 12px 12px;
+  }
+
   .left_foot_div img.left_foot_pic {
     display: none;
   }
